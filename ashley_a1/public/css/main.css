@@ -1,0 +1,108 @@
+/* NAVIGATION */
+.nav{
+    padding-left: 20px;
+    border-bottom: 1px solid rgb(0,173,162);
+    background-color: white;
+    width: 100%;
+}
+
+/* NAVIGATION LINKS */
+.nav-item a {
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgb(70,70,70);
+    -webkit-transition: all ease 0.7s;
+    -moz-transition: all ease 0.7s;
+    transition: all ease 0.7s;
+}
+
+/* NAVIGATION LINKS HOVER */
+.nav-item a:hover{
+    background-color: rgb(145,222,201);
+}
+
+/* CONTAINER */
+.container {
+    margin-top: 40px;
+}
+
+/* CAROUSEL */
+.carousel-inner{
+  width:100%;
+  max-height: 700px;
+}
+
+/* PORTFOLIO */
+.portfolio {
+    width: 100%;
+    height: auto;
+}
+
+/* BUTTON */
+.btn{
+    margin-top: 10px;
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+/* H4 HEADING */
+h4 {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+/* FORM WIDTH */
+.form-control{
+    max-width: 600px;
+}
+
+/* MODAL IMG */
+.modal-body img {
+    width: 100%;
+}
+
+/* ABOUT IMG */
+.display img {
+    border-radius: 50%;
+    width: 170px;
+    margin: auto;
+    display: block;
+}
+
+.about {
+    margin-top: 30px;
+}
+
+/* LIGHTBOX */
+#profile-grid {
+    overflow: auto; white-space: normal;
+}
+
+#profile-grid .profile {
+    padding-bottom: 40px;
+}
+
+#profile-grid .panel {
+    padding: 0
+}
+
+#profile-grid .panel-body {
+    padding: 15px
+}
+
+#profile-grid .profile-name {
+    font-weight: bold;
+}
+
+#profile-grid .thumbnail {
+    margin-bottom:6px;
+}
+
+#profile-grid .panel-thumbnail {
+    overflow: hidden;
+}
+
+#profile-grid img {
+    width: 100%;
+}
